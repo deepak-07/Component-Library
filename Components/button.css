@@ -1,0 +1,26 @@
+.btn {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px;
+    margin-bottom: 5px;
+    height: 40px;
+    width: 90px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: lightgreen;
+    border: 3px solid black;
+    border-radius: 7px;
+}
+
+.btn-secondary {
+    background-color: lightsalmon;
+    border: 3px solid black
+}
+
+.btn-transparent {
+    border: 3px solid rgb(13, 214, 13);
+    background-color: white;
+}
