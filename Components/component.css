@@ -21,9 +21,11 @@
 .failure-alert {
     background-color: rgb(245, 66, 66)
 }
-.avatar-section{
-    padding: 5pc 5px;
+
+.avatar-section {
+    padding: 5px 5px;
 }
+
 .avatar {
     border-radius: 50%;
     border: 4px solid blue;
@@ -38,6 +40,54 @@
     width: 40vh;
 }
 
+.badge-section {
+    /* display: flex;
+    flex-direction: row; */
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+
+.badge {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 5px;
+    position: relative;
+}
+
+.badge-status {
+    display: fixed;
+    position: absolute;
+    top: 78%;
+    left: 28%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    padding: 5px 5px;
+}
+
+.active-badge {
+    background-color: green;
+}
+
+.offline-badge {
+    background-color: grey;
+}
+
+.notification {
+    border: 2px solid blue;
+    padding: 5px 5px;
+    background-color: rgb(169, 239, 241);
+}
+
+.notification-status {
+    display: fixed;
+    position: absolute;
+    top: 6%;
+    left: 24%;
+    width: 15px;
+    height: 15px;
+}
+
 .button-section {
     display: flex;
     flex-direction: column;
@@ -47,7 +97,7 @@
     padding: 5px 5px;
     margin-bottom: 5px;
     height: 50px;
-    width: 100px;
+    width: 120px;
     align-self: center;
     cursor: pointer;
     background-color: white;
