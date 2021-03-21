@@ -1,3 +1,12 @@
+.body-contents {
+    display: flex;
+    /* flex-direction: column; */
+}
+.sections{
+    display: flex;
+    flex-direction: column;
+    padding: 8px 38px;
+}
 .sideNav {
     display: flex;
     flex-direction: column;
