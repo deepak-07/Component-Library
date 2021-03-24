@@ -16,7 +16,8 @@
     padding: 8px 38px;
     position: absolute;
     left: 30%;
-    background-color: var(--body-color);    ;
+    background-color: var(--body-color);
+    ;
 }
 
 .sideNav {
@@ -24,19 +25,19 @@
     flex-direction: column;
     position: fixed;
     width: 200px;
-    /* border: 2px solid grey; */
-    background-color: gray;
+    background-color: var(--secondary-color);
     padding: 5px 5px;
 }
 
 .sideNav>a {
     text-decoration: none;
     padding: 5px 5px;
-    color: white;
+    color: var(--white-color);
+    font-weight: bold;
     text-align: center;
 }
 
 .sideNav>hr {
-    color: black;
+    color: var(--primary-color);
     width: 70px;
 }
