@@ -1,30 +1,66 @@
-/* :root {
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+:root {
     --primary-color: #be185d;
     --secondary-color: #dd8bad;
     --body-color: #f0d8e2;
-} */
+    --success-color: #27dd27;
+    --lit-green-color: #cbf1cb;
+    --warning-color: #f0e116;
+    --lit-yellow-color: #f1f1bc;
+    --failure-color: #f13c3c;
+    --lit-red-color: #f1bdbd;
+    --white-color: #fff;
+    --offwhite-color: #a1a5ad;
+}
+
+h1 {
+    color: var(--white-color);
+}
+
+body {
+    display: grid;
+    grid-template-areas: "head head" "nav main" "nav main";
+    grid-template-rows: 95px 1fr;
+    grid-template-columns: 260px 1fr;
+    background-color: var(--body-color);
+    font-family: 'Heebo', sans-serif;
+}
+
+body>header {
+    grid-area: head;
+    justify-content: space-between;
+    padding: 1% 87%;
+    min-width: 90%;
+    position: relative;
+}
+
+body>header>h2>a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
 
 .body-contents {
-    display: flex;
+    /* display: flex; */
     /* flex-direction: column; */
 }
 
 .sections {
-    display: flex;
-    flex-direction: column;
+    grid-area: main;
     border-radius: 15px;
     padding: 8px 38px;
     position: absolute;
-    left: 30%;
     background-color: var(--body-color);
-    ;
 }
 
 .sideNav {
-    display: flex;
-    flex-direction: column;
+    grid-area: nav;
     position: fixed;
-    width: 200px;
+    z-index: 1;
+    width: 20%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
     background-color: var(--secondary-color);
     padding: 5px 5px;
 }
@@ -42,23 +78,6 @@
     width: 70px;
 }
 
-.modal-container {
-    display: block;
-    z-index: 1;
-    padding: 5px 5px;
-    text-align: center;
-    width: 200px;
-    background-color: var(--white-color);
-    color: var(--primary-color);
-    border-radius: 10px;
-}
-
-.toast-container {
-    display: block;
-    padding: 5px 5px;
-    text-align: center;
-    width: 200px;
-    background-color: var(--secondary-color);
-    color: var(--white-color);
-    border-radius: 10px;
+body>main {
+    padding: 5px 15%;
 }
