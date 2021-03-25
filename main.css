@@ -10,10 +10,14 @@
     --failure-color: #f13c3c;
     --lit-red-color: #f1bdbd;
     --white-color: #fff;
-    --offwhite-color: #a1a5ad;
+    --offwhite-color: #8d9097;
 }
 
-h1 {}
+h2 {
+    color: var(--offwhite-color);
+}
+
+
 
 body {
     display: grid;
@@ -89,6 +93,7 @@ body>main {
     padding: 5px 15%;
     font-size: large;
     font-weight: 800;
+    color: var(--primary-color);
 }
 
 .carbon-code {
