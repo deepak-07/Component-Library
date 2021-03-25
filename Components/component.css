@@ -13,13 +13,12 @@
 }
 
 h1 {
-    color: var(--white-color);
+    color: var(--primary-color);
+    font-weight: 1200;
 }
-
 body {
     font-family: 'Heebo', sans-serif;
 }
-
 h3 {
     display: block;
     color: var(--primary-color);
@@ -122,6 +121,7 @@ h3 {
 .notification {
     border: 2px solid var(--primary-color);
     padding: 5px 5px;
+    color: var(--white-color);
     background-color: var(--secondary-color);
 }
 
@@ -130,7 +130,7 @@ h3 {
     position: absolute;
     color: var(--primary-color);
     top: 5%;
-    left: 10%;
+    left: 11%;
     width: 15px;
     height: 15px;
 }
@@ -204,7 +204,7 @@ h3 {
 }
 
 .card-title {
-    padding: 2px 2px;
+    padding: 8px 2px;
     text-align: center;
 }
 
@@ -219,7 +219,7 @@ h3 {
 .cb-horizontal {
     top: 0.6rem;
     left: 10px;
-    width: 135px;
+    width: 150px;
     clip-path: polygon(0% 0%, 71% 0%, 53% 50%, 69% 97%, 0 97%);
 }
 
@@ -304,7 +304,7 @@ h3 {
     flex-direction: row;
     list-style: none;
     padding: 10px 10px;
-    width: 90%;
+    width: 80%;
     background-color: var(--secondary-color);
     border: 2px solid var(--primary-color);
     color: var(--white-color);
