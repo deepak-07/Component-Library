@@ -17,15 +17,14 @@ h2 {
     color: var(--offwhite-color);
 }
 
-
-
 body {
     display: grid;
     grid-template-areas: "head head" "nav main" "nav main";
     grid-template-rows: 95px 1fr;
-    grid-template-columns: 200px 1fr;
-    background-color: var(--body-color);
+    grid-template-columns: 220px 1fr;
+    background-color: var(--white-color);
     font-family: 'Heebo', sans-serif;
+    overflow-x: hidden;
 }
 
 body>header {
@@ -51,7 +50,7 @@ body>header>h2>a {
     border-radius: 15px;
     padding: 8px 38px;
     position: absolute;
-    background-color: var(--body-color);
+    background-color: var(--white-color);
 }
 
 .sideNav {
