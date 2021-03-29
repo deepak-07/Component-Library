@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
 :root {
     --primary-color: #be185d;
-    --secondary-color: #dd8bad;
+    --secondary-color: #e09db9;
     --body-color: #f0d8e2;
-    --success-color: #27dd27;
+    --success-color: #24c724c0;
     --lit-green-color: #cbf1cb;
-    --warning-color: #f0e116;
-    --lit-yellow-color: #f1f1bc;
+    --warning-color: #f5bf37;
+    --lit-yellow-color: #eeeea5;
     --failure-color: #f13c3c;
     --lit-red-color: #f1bdbd;
     --white-color: #fff;
-    --offwhite-color: #8d9097;
+    --offwhite-color: #808285;
 }
 
 h2 {
@@ -21,7 +21,7 @@ body {
     display: grid;
     grid-template-areas: "head head" "nav main" "nav main";
     grid-template-rows: 95px 1fr;
-    grid-template-columns: 220px 1fr;
+    grid-template-columns: 230px 1fr;
     background-color: var(--white-color);
     font-family: 'Heebo', sans-serif;
     overflow-x: hidden;
@@ -38,11 +38,6 @@ body>header {
 body>header>h2>a {
     text-decoration: none;
     color: var(--primary-color);
-}
-
-.body-contents {
-    /* display: flex; */
-    /* flex-direction: column; */
 }
 
 .sections {

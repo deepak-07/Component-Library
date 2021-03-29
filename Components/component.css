@@ -1,11 +1,11 @@
 :root {
     --primary-color: #be185d;
-    --secondary-color: #dd8bad;
+    --secondary-color: #e09db9;
     --body-color: #f0d8e2;
-    --success-color: #59b459c0;
+    --success-color: #24c724c0;
     --lit-green-color: #cbf1cb;
-    --warning-color: #f0e116;
-    --lit-yellow-color: #f1f1bc;
+    --warning-color: #f5bf37;
+    --lit-yellow-color: #eeeea5;
     --failure-color: #f13c3c;
     --lit-red-color: #f1bdbd;
     --white-color: #fff;
@@ -48,6 +48,7 @@ body {
     padding: 5px 10px;
     align-items: center;
     border-radius: 10px;
+    margin-bottom: 5px;
 }
 
 .alert>p {
@@ -136,7 +137,7 @@ body {
     position: absolute;
     color: var(--primary-color);
     top: 5%;
-    left: 11%;
+    left: 12.5%;
     width: 15px;
     height: 15px;
 }
@@ -213,8 +214,7 @@ body {
     border-radius: 50%;
 }
 
-.btn-floating:hover,
-.btn-icon:hover {
+.btn-floating:hover, .btn-icon:hover {
     border: 2px solid var(--secondary-color);
 }
 
@@ -232,6 +232,7 @@ body {
     align-items: center;
     box-shadow: 4px 4px 15px var(--offwhite-color);
     position: relative;
+    margin-bottom: 15px;
 }
 
 .card-title {
@@ -308,7 +309,8 @@ body {
     margin-bottom: 5px;
 }
 
-.input-box:hover {
+.input-box:hover,
+.input-box:focus {
     box-shadow: 0 0 0.3rem var(--secondary-color);
     border: 2px solid var(--secondary-color);
 }
