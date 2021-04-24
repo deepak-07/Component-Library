@@ -372,8 +372,10 @@ body {
     justify-content: center
 }
 
-.nav-logo>li {
+.nav-logo>li>a {
     padding: 10px 10px;
+    color: var(--white-color);
+    text-decoration: none;
 }
 
 .nav-pages {
@@ -381,12 +383,15 @@ body {
     flex-direction: row;
 }
 
-.nav-pages>li {
+.nav-pages>li>a {
     padding: 10px 10px;
+    color: var(--white-color);
+    text-decoration: none;
 }
 
 .nav-active {
     background-color: var(--primary-color);
+    /* padding: 5px 5px; */
     border-radius: 10px;
 }
 
