@@ -356,7 +356,7 @@ body {
     flex-direction: row;
     list-style: none;
     padding: 10px 10px;
-    width: 80%;
+    width: 95%;
     background-color: var(--secondary-color);
     border: 2px solid var(--primary-color);
     color: var(--white-color);
