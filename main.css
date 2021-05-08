@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
 :root {
-    --primary-color: #be185d;
-    --secondary-color: #e09db9;
-    --body-color: #f0d8e2;
+    --primary-color: rgb(41, 62, 64);
+    --secondary-color: rgb(84, 101, 102);
+    --body-color: rgb(247, 247, 247);
     --success-color: #24c724c0;
     --lit-green-color: #cbf1cb;
     --warning-color: #f5bf37;
